@@ -26,3 +26,5 @@ The results are shown as follow, where
 
 
 ![image](UnionFind.PNG)
+
+The percolation threshold, no matter the size of the grid, was around 59%. It can be noticed that when N doubles, the number of operation needed should increase by a factor of 4 (2 * 2), and the process time of UnionFind algorithm also increased by a factor of ~4. Therefore UnionFind algorithm scales proportional to N^2. QuickUnion algorithm increased not by a fixed factor, due to the natural randomness in the algorithm, but the factor is definitely larger than 4. QuickFind algorithm is even slower: it increased by a factor of ~14. That means QuickFind algorithm scales proportinal to N^4. When dealing with 1600x1600 grid, UnionFind algorithm is 1300 times faster than QuickFind. This shows the significance of having a better algorithm for processing heavy tasks.
