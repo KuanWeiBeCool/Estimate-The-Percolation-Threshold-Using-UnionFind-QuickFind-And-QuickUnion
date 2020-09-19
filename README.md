@@ -8,8 +8,13 @@ While nobody has successfully found the mathematical approach to solve the perco
 
 ## Model
 The model is defined as follow:
-- The system is simulated as a NxN grid of sites, initially set as "closed".
+- The system is simulated as a NxN grid of sites, initially set as "blocked".
 - At every step, a random site can be "open", and if any of its neighboring site is also "open", they will be connected.
 - They system is said to be "percolated" if the top of the grid and the bottom of the grid are connected by open sites.
 
 ![image](percolation.PNG)
+
+*empty open site: open site not connected to top; full open site: open site connected to top*
+
+## Result
+![image](QuickFind.PNG)
