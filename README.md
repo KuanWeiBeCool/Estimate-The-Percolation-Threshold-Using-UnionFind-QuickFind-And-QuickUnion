@@ -17,4 +17,12 @@ The model is defined as follow:
 *empty open site: open site not connected to top; full open site: open site connected to top*
 
 ## Result
-![image](QuickFind.PNG)
+The results are shown as follow, where
+- N: number of row/column of the grid
+- mean_percolation_threshold: the threshold that the system becomes percolated. e.g. if 200 sites out of 400 sites were open when the system percolates, the threshold is 200/400 = 0.5. Each value is shown as the mean of 100 independent trails.
+- union_find_time (ms): process time using UnionFind algorithm in microseconds.
+- quick_union_time (ms): process time using QuickUnion algorithm in microseconds.
+- quick_find_time (ms): process time using QuickFind algorithm in microseconds.
+
+
+![image](UnionFind.PNG)
