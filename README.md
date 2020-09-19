@@ -11,4 +11,5 @@ The model is defined as follow:
 - The system is simulated as a NxN grid of sites, initially set as "closed".
 - At every step, a random site can be "open", and if any of its neighboring site is also "open", they will be connected.
 - They system is said to be "percolated" if the top of the grid and the bottom of the grid are connected by open sites.
-![image](
+
+![image](percolation.PNG)
